@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    primary:
+      driverClassName: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      url: jdbc:mysql://localhost:3306/syc_trans?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      type: com.alibaba.druid.pool.DruidDataSource
+    user:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+      url: jdbc:mysql://localhost:3306/syc_user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      type: com.alibaba.druid.pool.DruidDataSource
+    record:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: sunyuchao
+      password: SYCmysql123!
+      url: jdbc:mysql://sunyuchao.mysql.polardb.rds.aliyuncs.com:3306/sunyc?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      type: com.alibaba.druid.pool.DruidDataSource
+
+server:
+  port: 8088
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
