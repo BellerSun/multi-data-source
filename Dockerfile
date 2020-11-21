@@ -1,5 +1,5 @@
 # Base images 基础镜像
-FROM registry.cn-beijing.aliyuncs.com/acs-sample/jenkins-slave-java
+FROM swr.cn-south-1.myhuaweicloud.com/beller_sun_docker/base:latest
 #MAINTAINER 维护者信息
 MAINTAINER 孙玉朝
 
