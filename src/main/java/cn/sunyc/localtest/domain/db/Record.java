@@ -9,7 +9,7 @@ import lombok.Data;
  * credits [SunYuChao,,]
  */
 @Data
-@TableName("record")
+@TableName("t_record")
 public class Record {
     private Integer id;
     private String desc;
